@@ -4,9 +4,7 @@ using System.Drawing;
 using System.Runtime.Serialization;
 
 //////////////////////////
-///
 /// Muhammet Sezgin
-/// 1306200042
 /// Görüntü İşleme Ödev 4
 //////////////////////////
 
