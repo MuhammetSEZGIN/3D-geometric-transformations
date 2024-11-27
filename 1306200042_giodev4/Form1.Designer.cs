@@ -28,270 +28,325 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(1007, 71);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 23);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(1007, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(65, 23);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(1007, 153);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(65, 23);
-            this.textBox3.TabIndex = 2;
+            label1 = new Label();
+            button1 = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            button2 = new Button();
+            trackBar1 = new TrackBar();
+            trackBar2 = new TrackBar();
+            trackBar3 = new TrackBar();
+            trackBar4 = new TrackBar();
+            trackBar5 = new TrackBar();
+            trackBar6 = new TrackBar();
+            trackBar7 = new TrackBar();
+            trackBar8 = new TrackBar();
+            trackBar9 = new TrackBar();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar9).BeginInit();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(963, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "X";
+            label1.AutoSize = true;
+            label1.Location = new Point(1088, 73);
+            label1.Name = "label1";
+            label1.Size = new Size(14, 15);
+            label1.TabIndex = 3;
+            label1.Text = "X";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1007, 598);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "islem";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(1007, 598);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "islem";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(963, 118);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 15);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Y";
+            label2.AutoSize = true;
+            label2.Location = new Point(1088, 120);
+            label2.Name = "label2";
+            label2.Size = new Size(14, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Y";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(963, 156);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Z";
+            label3.AutoSize = true;
+            label3.Location = new Point(1088, 158);
+            label3.Name = "label3";
+            label3.Size = new Size(14, 15);
+            label3.TabIndex = 6;
+            label3.Text = "Z";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(992, 36);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 15);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Dondurmeler";
+            label4.AutoSize = true;
+            label4.Location = new Point(986, 34);
+            label4.Name = "label4";
+            label4.Size = new Size(64, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Dondurme";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(997, 227);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 15);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Oteleme";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(1007, 280);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 23);
-            this.textBox4.TabIndex = 9;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(1007, 324);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(65, 23);
-            this.textBox5.TabIndex = 10;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(1007, 367);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(65, 23);
-            this.textBox6.TabIndex = 11;
+            label5.AutoSize = true;
+            label5.Location = new Point(986, 228);
+            label5.Name = "label5";
+            label5.Size = new Size(52, 15);
+            label5.TabIndex = 8;
+            label5.Text = "Oteleme";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(963, 362);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 15);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Z";
+            label6.AutoSize = true;
+            label6.Location = new Point(1088, 368);
+            label6.Name = "label6";
+            label6.Size = new Size(14, 15);
+            label6.TabIndex = 14;
+            label6.Text = "Z";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(963, 324);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(14, 15);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Y";
+            label7.AutoSize = true;
+            label7.Location = new Point(1088, 330);
+            label7.Name = "label7";
+            label7.Size = new Size(14, 15);
+            label7.TabIndex = 13;
+            label7.Text = "Y";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(963, 277);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(14, 15);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "X";
+            label8.AutoSize = true;
+            label8.Location = new Point(1088, 283);
+            label8.Name = "label8";
+            label8.Size = new Size(14, 15);
+            label8.TabIndex = 12;
+            label8.Text = "X";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(999, 426);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(63, 15);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Olcekleme";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(1007, 459);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(65, 23);
-            this.textBox7.TabIndex = 16;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(1007, 509);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(65, 23);
-            this.textBox8.TabIndex = 18;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(1007, 550);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(65, 23);
-            this.textBox9.TabIndex = 19;
+            label9.AutoSize = true;
+            label9.Location = new Point(986, 427);
+            label9.Name = "label9";
+            label9.Size = new Size(63, 15);
+            label9.TabIndex = 15;
+            label9.Text = "Olcekleme";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(963, 550);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 15);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "Z";
+            label11.AutoSize = true;
+            label11.Location = new Point(1088, 546);
+            label11.Name = "label11";
+            label11.Size = new Size(14, 15);
+            label11.TabIndex = 22;
+            label11.Text = "Z";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(963, 512);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 15);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Y";
+            label12.AutoSize = true;
+            label12.Location = new Point(1088, 508);
+            label12.Name = "label12";
+            label12.Size = new Size(14, 15);
+            label12.TabIndex = 21;
+            label12.Text = "Y";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(963, 465);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 15);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "X";
+            label13.AutoSize = true;
+            label13.Location = new Point(1088, 461);
+            label13.Name = "label13";
+            label13.Size = new Size(14, 15);
+            label13.TabIndex = 20;
+            label13.Text = "X";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(914, 598);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 23;
+            button2.Text = "Reset";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // trackBar1
+            // 
+            trackBar1.Location = new Point(928, 64);
+            trackBar1.Maximum = 5;
+            trackBar1.Minimum = -5;
+            trackBar1.Name = "trackBar1";
+            trackBar1.Size = new Size(154, 45);
+            trackBar1.TabIndex = 24;
+            trackBar1.Scroll += trackBar1_Scroll;
+            // 
+            // trackBar2
+            // 
+            trackBar2.Location = new Point(928, 112);
+            trackBar2.Maximum = 5;
+            trackBar2.Minimum = -5;
+            trackBar2.Name = "trackBar2";
+            trackBar2.Size = new Size(154, 45);
+            trackBar2.TabIndex = 25;
+            trackBar2.Scroll += trackBar2_Scroll;
+            // 
+            // trackBar3
+            // 
+            trackBar3.Location = new Point(928, 155);
+            trackBar3.Maximum = 5;
+            trackBar3.Minimum = -5;
+            trackBar3.Name = "trackBar3";
+            trackBar3.Size = new Size(154, 45);
+            trackBar3.TabIndex = 26;
+            // 
+            // trackBar4
+            // 
+            trackBar4.Location = new Point(928, 273);
+            trackBar4.Maximum = 5;
+            trackBar4.Minimum = -5;
+            trackBar4.Name = "trackBar4";
+            trackBar4.Size = new Size(154, 45);
+            trackBar4.TabIndex = 27;
+            trackBar4.Scroll += trackBar4_Scroll;
+            // 
+            // trackBar5
+            // 
+            trackBar5.Location = new Point(928, 324);
+            trackBar5.Maximum = 5;
+            trackBar5.Minimum = -5;
+            trackBar5.Name = "trackBar5";
+            trackBar5.Size = new Size(154, 45);
+            trackBar5.TabIndex = 28;
+            trackBar5.Scroll += trackBar5_Scroll;
+            // 
+            // trackBar6
+            // 
+            trackBar6.Location = new Point(928, 368);
+            trackBar6.Maximum = 5;
+            trackBar6.Minimum = -5;
+            trackBar6.Name = "trackBar6";
+            trackBar6.Size = new Size(154, 45);
+            trackBar6.TabIndex = 29;
+            trackBar6.Scroll += trackBar6_Scroll;
+            // 
+            // trackBar7
+            // 
+            trackBar7.Location = new Point(928, 455);
+            trackBar7.Maximum = 5;
+            trackBar7.Minimum = -5;
+            trackBar7.Name = "trackBar7";
+            trackBar7.Size = new Size(154, 45);
+            trackBar7.TabIndex = 30;
+            trackBar7.Scroll += trackBar7_Scroll;
+            // 
+            // trackBar8
+            // 
+            trackBar8.Location = new Point(928, 505);
+            trackBar8.Maximum = 5;
+            trackBar8.Minimum = -5;
+            trackBar8.Name = "trackBar8";
+            trackBar8.Size = new Size(154, 45);
+            trackBar8.TabIndex = 31;
+            trackBar8.Scroll += trackBar8_Scroll;
+            // 
+            // trackBar9
+            // 
+            trackBar9.Location = new Point(928, 543);
+            trackBar9.Maximum = 5;
+            trackBar9.Minimum = -5;
+            trackBar9.Name = "trackBar9";
+            trackBar9.Size = new Size(154, 45);
+            trackBar9.TabIndex = 32;
+            trackBar9.Scroll += trackBar9_Scroll;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 685);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1113, 685);
+            Controls.Add(trackBar9);
+            Controls.Add(trackBar8);
+            Controls.Add(trackBar7);
+            Controls.Add(trackBar6);
+            Controls.Add(trackBar5);
+            Controls.Add(trackBar4);
+            Controls.Add(trackBar3);
+            Controls.Add(trackBar2);
+            Controls.Add(trackBar1);
+            Controls.Add(button2);
+            Controls.Add(label11);
+            Controls.Add(label12);
+            Controls.Add(label13);
+            Controls.Add(label9);
+            Controls.Add(label6);
+            Controls.Add(label7);
+            Controls.Add(label8);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            Paint += Form1_Paint;
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar9).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
         private Label label1;
         private Button button1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
         private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
         private Label label11;
         private Label label12;
         private Label label13;
+        private Button button2;
+        private TrackBar trackBar1;
+        private TrackBar trackBar2;
+        private TrackBar trackBar3;
+        private TrackBar trackBar4;
+        private TrackBar trackBar5;
+        private TrackBar trackBar6;
+        private TrackBar trackBar7;
+        private TrackBar trackBar8;
+        private TrackBar trackBar9;
     }
 }
